@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>bai yk Nha Trang</title>
     <link rel="stylesheet" href="../css/bai_yk_webNhaTrang.css">
 </head>
+
 <body>
     <div id="header">
 
@@ -24,7 +26,7 @@
         <div class="search">
             <label for="txtsearch">Search:</label>
             <input class="txtsearch" type="text" name="txtsearch" id="txtearch" placeholder="Search here..."
-            autocomplete="name">
+                autocomplete="name">
             <input class="button1" type="button" value="GO">
         </div>
     </div>
@@ -33,11 +35,39 @@
         <div class="main">
             <h2>Introduction - Contact</h2>
             <div>
-                <b>N</b>ha Trang Bay Cover an area of about 507 km&#178; including 19 islands,
+                <b>N</b>ha Trang Bay Cover an area of about 507 km&#178; including 19 islands, large and small, of which
+                Hon Tre is the largest island, with an area of 32.5km&#178;; The smallest island, Hon No, is only about
+                4 hectares. The bay has two distinct seasons. The dry season lasts from January to August, the rainy
+                season lasts from September to December; The average annual temperature is 26 degrees Celsius; hottest
+                39 degrees C, coldest 14.4 degrees C. In terms of ecology, Nha Trang Bay is one of the rare natural
+                patterns of the system of polls and bays in the world because it has most of the ecosystems.
             </div>
             <form action="#" method="get">
                 <fieldset>
                     <legend>Information</legend>
+                    <label for="txtname">Name:</label> <br>
+                    <input class="input" type="text" name="txtname" id="txtname   " placeholder="Your name"
+                        autocomplete="name" required />
+                    <br>
+
+                    <label for="txtEmail">Email:</label> <br>
+                    <input class="input" type="email" name="txtEmail" id="txtEmail" placeholder="Your Email"
+                        autocomplete="email" required />
+
+                    <br>
+                    Gender: <br>
+                    <label for="radmale">Male:</label>
+                    <input type="radio" name="gender" id="radmale" checked>
+
+                    <label for="radFemale">Female:</label>
+                    <input type="radio" name="gender" id="radFemale">
+
+                    <br>
+
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -55,7 +85,9 @@
     </div>
     <!--  -->
     <div id="footer">
-
+        <p class="p1">Nguyen Van</p>
+        <p class="p2">DHTH15 - Cong nghe thong tin</p>
     </div>
 </body>
+
 </html>
