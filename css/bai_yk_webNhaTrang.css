@@ -1,0 +1,118 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pattern.png);
+
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#header{
+    width: 70%;
+    height: 25%;
+    background-color: aqua;
+    /* background-image: url(../images/banner.jpg); */
+    background-size: cover;
+}
+/* //////////////////////////////////////////////////////////////////// */
+#menu{
+    width: 70%;
+    height: 8%;
+    background-color: #c4c4f8;
+    text-transform: uppercase;
+    
+    position: relative;
+}
+#menu .ul{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+#menu li{
+    height: 100%;
+    width: auto;
+    display: inline;
+
+    margin-right: 50px;
+    margin-top: 10%;
+}
+#menu .search{
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.txtsearch{
+    width: 200px;
+    height: 25px;
+}
+.button1{
+    width: 30px;
+    height: 25px;
+    border-width: 2px ;
+    background-color: #0b5bd4;
+    border-radius: 50px;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+#container{
+    width: 70%;
+    height:55%;
+}
+/* //////////////////////////////////////////////////////////////////// */
+.main
+{
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to left, #0fbedd, #ffff, #0fbedd);
+
+    float: left;
+
+}
+.main h2
+{
+    padding: 20px;
+    text-align: center;
+    color: red;
+
+}
+/*  */
+.main>div{
+    width: 45%;
+    float: left;
+    height: 100%;
+    text-align: justify;
+}
+.main>form{
+    width: 48%;
+    /* height: 10%; */
+    float: right;
+    height: 100%;
+    padding: 0 2%;
+    
+}
+/* //////////////////////////////////////////////////////////////////// */
+.img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+img
+{
+    width: 100%;
+}
+/* //////////////////////////////////////////////////////////////////// */
+#footer{
+    width: 70%;
+    height: 10%;
+    background-color: blueviolet;
+}
